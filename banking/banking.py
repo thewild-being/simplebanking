@@ -75,7 +75,7 @@ while control_input != exit_loop:
 
         # _______________ADD INCOME
         elif not switch:
-            add_income = int(input("Enter income:\n>"))
+            add_income += int(input("Enter income:\n>"))
             main.add_balance(connection, add_income)
             if add_income:
                 print("Income was added!")
